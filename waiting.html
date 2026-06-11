@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/waiting.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="js/waiting.js" ></script>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <h2>📚 Book Community</h2>
+
+        <ul>
+            <li><i class="fa-solid fa-house"></i> Home</li>
+            <li><i class="fa-solid fa-book"></i> Books</li>
+            <li><i class="fa-solid fa-clock"></i> Waiting List</li>
+            <li><i class="fa-solid fa-users"></i> Community</li>
+        </ul>
+
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+
+        <!-- Navbar -->
+        <div class="navbar">
+
+            <input type="text"
+            placeholder="Search books...">
+
+            <div class="profile">
+                Madhavi
+            </div>
+
+        </div>
+
+        <!--Waiting list Header-->
+        <div class="waiting-header">
+            <h1>Atomic Habits</h1>
+            <p><strong>Current Reader:</strong>Madhu</p>
+            <p><strong>Status:</strong>
+            <span id="status">Borrowed</span></p>
+        </div>
+
+        <!--Queue section-->
+        <div class="queue">
+            <h2>Waiting Queue</h2>
+            <ol>
+                <li>Akash</li>
+                <li>Priya</li>
+                <li>Rahul</li>
+            </ol>
+            </div>
+
+            <!--Next Reader-->
+            <div class="next-reader">
+                <h2>Next Reader</h2>
+                <p>Akash</p>
+            </div>
+
+            <!--Buttons-->
+            <div class="button">
+                <button id="leaveBtn">Leave Waiting List</button>
+                <button id="refreshBtn">Refresh Queue</button>
+            </div>
+
+            <!--Estimated Time-->
+            <div class="estimate">
+                <h2>Estimate Waiting Time</h2>
+                <p>Approx. 7 Days</p>
+            </div>
+            

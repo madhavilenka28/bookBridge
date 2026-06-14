@@ -4,6 +4,31 @@
     box-sizing:border-box;
     font-family:Arial, sans-serif;
 }
+.stats-container{
+    display:flex;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.stat-card{
+    flex:1;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.stat-card h2{
+    color:#8a2be2;
+    margin-bottom:8px;
+}
+
+.stat-card p{
+    color:#666;
+    font-size:14px;
+}
 
 body{
     background:#f8f5ff;

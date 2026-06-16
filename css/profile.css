@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8f5ff;
+}
+
+.profile-container{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    min-height:100vh;
+}
+
+.cover{
+    height:220px;
+    background:linear-gradient(135deg,#8a2be2,#b388ff);
+}
+
+.profile-header{
+    text-align:center;
+    margin-top:-75px;
+    padding:20px;
+}
+
+.profile-header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid white;
+}
+
+.profile-header h1{
+    color:#6a0dad;
+    margin-top:15px;
+}
+
+.reader-type{
+    color:#666;
+    margin:10px 0;
+}
+
+.profile-header button{
+    background:#8a2be2;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.profile-header button:hover{
+    background:#6a0dad;
+}
+
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.stat-box{
+    background:white;
+    padding:20px;
+    width:180px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.stat-box h2{
+    color:#8a2be2;
+}
+
+.section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.section h2{
+    color:#6a0dad;
+    margin-bottom:15px;
+}
+
+.genres{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.genres span{
+    background:#efe5ff;
+    color:#6a0dad;
+    padding:8px 12px;
+    border-radius:20px;
+}
+
+.books{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.book-card{
+    width:180px;
+    background:#f8f5ff;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.book-card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+.action-buttons{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.follow-btn,
+.message-btn{
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.follow-btn{
+    background:#8a2be2;
+    color:white;
+}
+
+.message-btn{
+    background:white;
+    color:#8a2be2;
+    border:2px solid #8a2be2;
+}
+
+.follow-btn:hover{
+    background:#6a0dad;
+}
+
+.message-btn:hover{
+    background:#efe5ff;
+}

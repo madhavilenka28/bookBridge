@@ -10,7 +10,6 @@
 
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="js/waiting.js" ></script>
 </head>
 <body>
 
@@ -45,8 +44,8 @@
 
         <!--Waiting list Header-->
         <div class="waiting-header">
-            <h1>Atomic Habits</h1>
-            <p><strong>Current Reader:</strong>Madhu</p>
+            <h1>Atomic Habits</h1><br>
+            <p><strong>Current Reader:</strong>Madhu</p><br>
             <p><strong>Status:</strong>
             <span id="status">Borrowed</span></p>
         </div>
@@ -54,12 +53,39 @@
         <!--Queue section-->
         <div class="queue">
             <h2>Waiting Queue</h2>
-            <ol>
-                <li>Akash</li>
-                <li>Priya</li>
-                <li>Rahul</li>
-            </ol>
+            <div class="reader-card">
+    1. Akash
+</div>
+
+<div class="reader-card">
+    2. Priya
+</div>
+
+<div class="reader-card">
+    3. Rahul
+</div>
             </div>
+            <div class="queue-stats">
+
+<div class="stat-card">
+<h3>3</h3>
+<p>Readers Waiting</p>
+</div>
+
+<div class="stat-card">
+<h3>7 Days</h3>
+<p>Average Wait</p>
+</div>
+
+</div>
+
+<h2>Queue Progress</h2>
+
+<div class="progress-bar">
+    <div class="progress"></div>
+</div>
+
+<p>1 of 3 readers completed</p>
 
             <!--Next Reader-->
             <div class="next-reader">
@@ -68,7 +94,7 @@
             </div>
 
             <!--Buttons-->
-            <div class="button">
+            <div class="buttons">
                 <button id="leaveBtn">Leave Waiting List</button>
                 <button id="refreshBtn">Refresh Queue</button>
             </div>
@@ -78,4 +104,6 @@
                 <h2>Estimate Waiting Time</h2>
                 <p>Approx. 7 Days</p>
             </div>
-            
+             <script src="js/waiting.js" ></script>
+        </body>
+        </html>

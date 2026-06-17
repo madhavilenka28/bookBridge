@@ -1,5 +1,5 @@
-let leaveBtn = document.getElementById("leave-btn");
-    let refreshBtn = document.getElementById("refresh-btn");
+let leaveBtn = document.getElementById("leaveBtn");
+    let refreshBtn = document.getElementById("refreshBtn");
     leaveBtn.addEventListener("click", function() {
         alert("You have left the waiting list.");
     });

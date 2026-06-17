@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f8f5ff;
+    padding:40px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+h1{
+    color:#6a0dad;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:30px;
+}
+
+#wishlist-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.wishlist-card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.wishlist-card:hover{
+    transform:translateY(-4px);
+}
+
+.book-info h3{
+    color:#6a0dad;
+    margin-bottom:8px;
+}
+
+.book-info p{
+    color:#666;
+}
+
+.genre{
+    display:inline-block;
+    margin-top:8px;
+    background:#efe5ff;
+    color:#6a0dad;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:13px;
+}
+
+.remove-btn{
+    background:#8a2be2;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.remove-btn:hover{
+    background:#6a0dad;
+}
+
+.empty{
+    text-align:center;
+    color:#777;
+    font-size:18px;
+    margin-top:50px;
+}
